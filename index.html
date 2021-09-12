@@ -7,12 +7,13 @@
     </head>
     <body>
         <div class="maindiv">
-            <h1>Simple Interest Calculator</h1>
-<table>
-<tr><td>Amount</td><td><input type="number"  id="principal"></td></tr><br><br>
-<tr><td>Interest Rate</td><td><input type="range"  id="rate" min="1" max="20" step="0.25" onchange="updateSlider(this.value)">
-<span id="sliderAmount">10.25%</span></td></tr><br><br>
-<tr><td>No. of Years</td><td><input id="years" type="number"  list="values">
+        <center><h1>Simple Interest Calculator</h1></center>
+<br>
+<form action="">
+Amount<input type="number"  id="principal"><br><br>
+Interest Rate<input type="range"  id="rate" min="1" max="20" step="0.25" onchange="updateSlider(this.value)">
+<span id="sliderAmount">10.25%</span><br><br>
+No. of Years<input id="years" type="number"  list="values">
             <datalist id="values">
                 <option value="1"></option>
                 <option value="2"></option>
@@ -24,10 +25,10 @@
                 <option value="8"></option>
                 <option value="9"></option>
                 <option value="10"></option>
-                </datalist></td></tr><br><br>
-            </table>
-            <button onclick="compute()">Compute Interest</button><br>
+                </datalist><br><br>
+             <button onclick="compute()">Compute Interest</button><br>
             <span id="result"></span>
+            </form>
 
             <footer id="copyright">
                 <p>&#169; Everyone Can Get Rich</p>
