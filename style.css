@@ -5,7 +5,8 @@ body {
 }
 h1{
     color:grey;
-    font-family: Verdana;   
+    font-family: Verdana;
+    margin-bottom: 0px;
 }
 .maindiv{
     background-color: white;
@@ -19,3 +20,6 @@ h1{
     margin-left: 0;
     margin-bottom: 0;
 }
+form {
+  margin-left: 50px;
+  }
